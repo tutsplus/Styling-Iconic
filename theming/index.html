@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta-->
+    <title>Icon themes | Iconic</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.png">
+    <!-- css-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/prettify.css">
+    <link rel="stylesheet" href="css/iconic-themes.css"><!--[if IE 9]>
+    <link id="css-ie9" href="css/ie9.css" rel="stylesheet" type="text/css">
+    <![endif]-->
+    <script src="/js/vendor/modernizr.custom.js"></script>
+    <!-- Fonts-->
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic" rel="stylesheet" type="text/css">
+    <!-- meta-->
+    <meta content="">
+    <style>
+      .icons {
+        margin-top: 50px;
+      }
+
+      .controls {
+        margin-top: 25px;
+      }
+
+      .svg-inject {
+        margin:20px 0;
+        vertical-align: middle;
+      }
+
+      .svg-inject + .svg-inject {
+        margin-left: 30px
+      }
+
+      body.subpage {
+        padding-top: 15px;
+      }
+
+      body.subpage section:first-of-type {
+        border-bottom: 1px solid transparent;
+      }
+
+    </style>
+  </head>
+  <body class="subpage smart-icons demo">
+    <section>
+      <article class="head">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 text-center text-muted">
+              <h6>Proof of Concept</h6>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+              <h4>Style <em>all</em> your icons, lickety-split</h4>
+              <p>Styling individual icons is great, but sometimes you just want a unique, consistent look across the whole collection. CSS-based icons themes are your ticket! The demo below shows what theming can do.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <div class="icons">
+                <img src="images/clock.svg" width="90" class="svg-inject iconic-style-hollow" />
+                <img src="images/download.svg" height="90" class="svg-inject iconic-style-hollow" />
+                <img src="images/mail.svg" width="90" class="svg-inject iconic-style-hollow" />
+                <img src="images/pie-chart.svg" width="90" class="svg-inject iconic-style-hollow" />
+                <img src="images/settings.svg" width="90" class="svg-inject iconic-style-hollow" />
+                <img src="images/volume.svg" width="90" class="svg-inject iconic-style-hollow" />
+              </div>
+            </div>
+          </div>
+          <div class="row controls">
+            <div class="col-md-6 col-md-offset-3">
+              <div class="row controls">
+                <div class="col-md-6">
+                  <p class="form-group">
+                    <label>Theme</label><br>
+                    <select multiple class="form-control theme-select">
+                      <option value="none" selected="selected">Base</option>
+                      <option value="monochrome">Monochrome</option>
+                      <option value="slate">Slate</option>
+                      <option value="sand">Sand</option>
+                      <option value="xray">X-Ray</option>
+                    </select>
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <p class="form-group">
+                    <label>Styling</label><br>
+                    <select class="form-control style-strokeweight-select">
+                      <option value="thick">Thick</option>
+                      <option value="light" selected="selected">Light</option>
+                      <option value="thin">Thin</option>
+                      <option value="hairline">Hairline</option>
+                    </select>
+                  </p>
+                  <p class="form-group">
+                    <label class="checkbox-inline">
+                      <input type="checkbox" value="hollow" checked="checked" class="style-hollow-toggle">Hollow
+                    </label>
+                    <label class="checkbox-inline">
+                      <input type="checkbox" class="style-stroke-rounded-toggle">Rounded Line-caps
+                    </label>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <div class="menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <ul class="pager">
+              <li class="text-center"><a data-toggle="modal" href="#modal-kickstarter" class="btn btn-default btn-kick btn-round">Get Iconic</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p><a href="https://twitter.com/share" class="twitter-share-button" data-via="useiconic">Tweet</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+              <!--| &nbsp;&nbsp;-->
+              <!--iframe(src="http://ghbtns.com/github-btn.html?user=iconic&repo=iconic&type=watch&count=true", allowtransparency="true", frameborder="0", scrolling="0", width="110", height="20")-->
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <p class="text-muted"><small>Laboriously loved by&nbsp;<a href="http://waybury.com" class="waybury-link">Waybury</a></small></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="modal-kickstarter" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6">
+                  <h2>Make it happen</h2>
+                  <p>We want you to have Iconic and we <em>definitely</em> want you to use it. There's just one thing you need to do to make this a reality. <a href="http://www.kickstarter.com/projects/207474036/iconic-advanced-icons-for-the-modern-web" class="kick">Back Iconic on Kickstarter</a> and <a href="https://twitter.com/useiconic" class="tweet">spread the word</a>. OK, that's two things, but you get the point.</p>
+                  <p>In all seriousness, please help us get Iconic in your hands (figuratively). We know you'll love it.</p>
+                  <p>&nbsp;</p>
+                  <p><a href="http://www.kickstarter.com/projects/207474036/iconic-advanced-icons-for-the-modern-web" class="btn btn-kick btn-round">Back us on Kickstarter</a></p>
+                </div>
+                <div class="col-sm-6 embed-kickstarter">
+                  <iframe frameborder="0" height="380" width="220" src="http://www.kickstarter.com/projects/207474036/iconic-advanced-icons-for-the-modern-web/widget/card.html"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/vendor/jquery.svginject.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/prettify.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/site.js"></script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </body>
+</html>

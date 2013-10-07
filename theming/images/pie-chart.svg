@@ -1,0 +1,7 @@
+<svg version="1.1" class="iconic iconic-pie-chart" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="9px" height="9px" viewBox="0 0 9 9" enable-background="new 0 0 9 9" xml:space="preserve">
+<path class="iconic-pie-chart-sector-tertiary iconic-elem-secondary" d="M3.935,5.35l-2.502-2.5c-1.244,1.438-1.244,3.562,0,5L3.935,5.35z"/>
+<path class="iconic-pie-chart-sector-primary iconic-elem-primary" d="M5.472,1.54v3.662L2.912,7.79C3.494,8.225,4.201,8.5,4.954,8.5C6.926,8.5,8.5,6.928,8.5,4.985
+	C8.5,3.221,7.191,1.791,5.472,1.54z"/>
+<path class="iconic-pie-chart-sector-secondary iconic-elem-secondary" d="M4.5,4.504V0.5C3.41,0.567,2.426,0.984,1.631,1.634L4.5,4.504z"/>
+</svg>

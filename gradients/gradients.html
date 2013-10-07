@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/iconic-themes.css" />
+    <style>
+      .icons {
+        width:600px;
+        margin:50px auto;
+        text-align: center;
+      }
+      .controls {
+        width:700px;
+        margin:50px auto;
+         text-align: center;
+      }
+      .svg-inject {
+        display: inline-block;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        vertical-align: middle;
+      }
+      .svg-inject:last-child {
+        margin-right: 0;
+      }
+      .iconic-mail * {
+        fill: url(images/gradient-pink.svg#SVGID_1_);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="icons">
+      <img src="images/mail.svg" width="90" class="svg-inject" />
+    </div>
+    <div class="controls">
+      <label>Hollow</label>
+      <input type="checkbox" class="style-hollow-toggle" value="hollow" />
+      <label>Stroke thickness</label>
+      <select class="style-strokeweight-select">
+        <option value="thick">Thick</option>
+        <option value="light">Light</option>
+        <option value="thin">Thin</option>
+        <option value="hairline">Hairline</option>
+      </select>
+      <label>Rounded Strokes</label>
+      <input type="checkbox" class="style-stroke-rounded-toggle" />
+      <label>Choose Theme</label>
+      <select class="theme-select">
+        <option value="none">No theme</option>
+        <option value="monochrome">Monochrome</option>
+        <option value="slate">Slate</option>
+        <option value="sand">Sand</option>
+        <option value="xray">X-Ray</option>
+      </select>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/jquery.svginject.js"></script>
+    <script src="js/demo.js"></script>
+  </body>
+</html>

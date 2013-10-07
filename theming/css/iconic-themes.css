@@ -1,0 +1,145 @@
+.iconic.iconic-style-hollow * {
+  fill: none;
+  stroke-width: .5;
+  stroke: #000;
+}
+
+.iconic.iconic-style-strokeweight-hairline *[stroke],
+.iconic.iconic-style-hollow.iconic.iconic-style-strokeweight-hairline * {
+  stroke-width: .15;
+}
+
+.iconic.iconic-style-strokeweight-thin *[stroke],
+.iconic.iconic-style-hollow.iconic.iconic-style-strokeweight-thin * {
+  stroke-width: .33;
+}
+
+.iconic.iconic-style-strokeweight-light *[stroke],
+.iconic.iconic-style-hollow.iconic.iconic-style-strokeweight-light * {
+  stroke-width: .5;
+}
+
+.iconic.iconic-style-strokeweight-thick *[stroke] {
+  stroke-width: 1;
+}
+
+.iconic.iconic-style-stroke-rounded * {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.iconic.iconic-theme-monochrome .iconic-elem-primary,
+.iconic.iconic-theme-monochrome .iconic-elem-primary * {
+  fill:#575a58;
+}
+
+.iconic.iconic-theme-monochrome .iconic-elem-secondary,
+.iconic.iconic-theme-monochrome .iconic-elem-secondary * {
+  fill:#d0d8d0;
+}
+
+.iconic.iconic-theme-monochrome .iconic-elem-primary[stroke],
+.iconic.iconic-theme-monochrome .iconic-elem-primary *[stroke] {
+  fill:none;
+  stroke: #575a58;
+}
+
+.iconic.iconic-theme-monochrome .iconic-elem-secondary[stroke],
+.iconic.iconic-theme-monochrome .iconic-elem-secondary *[stroke] {
+  fill:none;
+  stroke: #d0d8d0;
+}
+
+.iconic.iconic-style-hollow.iconic-theme-monochrome .iconic-elem-primary,
+.iconic.iconic-style-hollow.iconic-theme-monochrome .iconic-elem-primary * {
+  fill: none;
+  stroke: #575a58;
+}
+
+.iconic.iconic-style-hollow.iconic-theme-monochrome .iconic-elem-secondary,
+.iconic.iconic-style-hollow.iconic-theme-monochrome .iconic-elem-secondary * {
+  fill: none;
+  stroke: #d0d8d0;
+}
+
+
+.iconic.iconic-theme-slate .iconic-elem-primary,
+.iconic.iconic-theme-slate .iconic-elem-primary * {
+  fill:#385475;
+}
+
+.iconic.iconic-theme-slate .iconic-elem-secondary,
+.iconic.iconic-theme-slate .iconic-elem-secondary * {
+  fill:#779ad0;
+}
+
+.iconic.iconic-theme-slate .iconic-elem-primary[stroke],
+.iconic.iconic-theme-slate .iconic-elem-primary *[stroke] {
+  fill:none;
+  stroke: #385475;
+}
+
+.iconic.iconic-theme-slate .iconic-elem-secondary[stroke],
+.iconic.iconic-theme-slate .iconic-elem-secondary *[stroke] {
+  fill:none;
+  stroke: #779ad0;
+}
+
+.iconic.iconic-style-hollow.iconic-theme-slate .iconic-elem-primary,
+.iconic.iconic-style-hollow.iconic-theme-slate .iconic-elem-primary * {
+  fill: none;
+  stroke: #385475;
+}
+
+.iconic.iconic-style-hollow.iconic-theme-slate .iconic-elem-secondary,
+.iconic.iconic-style-hollow.iconic-theme-slate .iconic-elem-secondary * {
+  fill: none;
+  stroke: #779ad0;
+}
+
+
+.iconic.iconic-theme-sand .iconic-elem-primary,
+.iconic.iconic-theme-sand .iconic-elem-primary * {
+  fill:#c6b8ab;
+}
+
+.iconic.iconic-theme-sand .iconic-elem-secondary,
+.iconic.iconic-theme-sand .iconic-elem-secondary * {
+  fill:#e7dfd8;
+}
+
+.iconic.iconic-theme-sand .iconic-elem-primary[stroke],
+.iconic.iconic-theme-sand .iconic-elem-primary *[stroke] {
+  fill:none;
+  stroke: #c6b8ab;
+}
+
+.iconic.iconic-theme-sand .iconic-elem-secondary[stroke],
+.iconic.iconic-theme-sand .iconic-elem-secondary *[stroke] {
+  fill:none;
+  stroke: #e7dfd8;
+}
+
+.iconic.iconic-style-hollow.iconic-theme-sand .iconic-elem-primary,
+.iconic.iconic-style-hollow.iconic-theme-sand .iconic-elem-primary * {
+  fill: none;
+  stroke: #c6b8ab;
+}
+
+.iconic.iconic-style-hollow.iconic-theme-sand .iconic-elem-secondary,
+.iconic.iconic-style-hollow.iconic-theme-sand .iconic-elem-secondary * {
+  fill: none;
+  stroke: #e7dfd8;
+}
+
+
+
+.iconic.iconic-theme-xray .iconic-elem-primary,
+.iconic.iconic-theme-xray .iconic-elem-primary * {
+  opacity:1;
+}
+
+.iconic.iconic-theme-xray .iconic-elem-secondary,
+.iconic.iconic-theme-xray .iconic-elem-secondary * {
+  opacity:.67;
+}

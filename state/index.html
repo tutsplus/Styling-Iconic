@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta-->
+    <title>Styling states in icons | Iconic</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.png">
+    <!-- css-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/prettify.css">
+    <link rel="stylesheet" href="css/iconic-themes.css"><!--[if IE 9]>
+    <link id="css-ie9" href="css/ie9.css" rel="stylesheet" type="text/css">
+    <![endif]-->
+    <script src="/js/vendor/modernizr.custom.js"></script>
+    <!-- Fonts-->
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic" rel="stylesheet" type="text/css">
+    <!-- meta-->
+    <meta content="">
+    <style>
+      /*Strong signal*/
+      .iconic-signal.iconic-signal-strong .iconic-signal-base {
+        fill:#569e26;
+      }
+      .iconic-signal.iconic-signal-strong .iconic-signal-wave * {
+        stroke:#569e26;
+      }
+
+      /*Medium signal*/
+      .iconic-signal.iconic-signal-medium .iconic-signal-base {
+        fill:#efc411;
+      }
+      .iconic-signal.iconic-signal-medium .iconic-signal-wave * {
+        stroke:#efc411;
+      }
+      .iconic-signal.iconic-signal-medium .iconic-signal-wave-outer {
+        opacity:.3;
+        stroke-width:.5;
+      }
+
+      /*Weak signal*/
+      .iconic-signal.iconic-signal-weak .iconic-signal-base {
+        fill:#b52808;
+      }
+      .iconic-signal.iconic-signal-weak .iconic-signal-wave * {
+        stroke:#b52808;
+      }
+      .iconic-signal.iconic-signal-weak .iconic-signal-wave-outer ,
+      .iconic-signal.iconic-signal-weak .iconic-signal-wave-middle {
+        opacity:.3;
+        stroke-width:.5;
+      }
+
+      /*No signal*/
+      .iconic-signal.iconic-signal-none .iconic-signal-base {
+        fill:#848484;
+      }
+      .iconic-signal.iconic-signal-none .iconic-signal-wave * {
+        stroke:#848484;
+        opacity:.3;
+        stroke-width:.5;
+      }
+
+      .svg-inject {
+        margin:20px 0;
+      }
+
+      .svg-inject + .svg-inject {
+        margin-left: 30px
+      }
+
+      .icons {
+        margin:50px 0;
+      }
+
+      body.subpage.demo article pre.prettyprint {
+        margin: 0;
+      }
+      body.subpage.demo .code-samples h5 {
+        margin: 20px 0 10px 0;
+      }
+    </style>
+
+  </head>
+  <body class="subpage smart-icons demo">
+    <section>
+      <article class="head">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 text-center text-muted">
+              <h6>Proof of Concept</h6>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+              <h4>Using CSS to display state within an icon</h4>
+              <p>You don't need a separate file for every state of an icon, all you need is simple CSS. Iconic is built exactly for this purpose.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <div class="icons">
+                <img src="images/signal.svg" width="180" class="svg-inject iconic-signal-strong" />
+                <img src="images/signal.svg" width="180" class="svg-inject iconic-signal-medium" />
+                <img src="images/signal.svg" width="180" class="svg-inject iconic-signal-weak" />
+                <img src="images/signal.svg" width="180" class="svg-inject iconic-signal-none" />
+              </div>
+
+            </div>
+          </div>
+          <div class="row code-samples">
+            <div class="col-md-6 col-md-offset-3">
+              <h5>HTML</h5>
+              <pre class="prettyprint text-left">&lt;img src=&quot;signal.svg&quot; class=&quot;svg-inject iconic-signal-strong&quot; /&gt;
+&lt;img src=&quot;signal.svg&quot; class=&quot;svg-inject iconic-signal-medium&quot; /&gt;
+&lt;img src=&quot;signal.svg&quot; class=&quot;svg-inject iconic-signal-weak&quot; /&gt;
+&lt;img src=&quot;signal.svg&quot; class=&quot;svg-inject iconic-signal-none&quot; /&gt;</pre>
+              <h5>JS</h5>
+              <pre class="prettyprint text-left">$('.svg-inject').svgInject();</pre>
+              <h5>CSS</h5>
+              <pre class="prettyprint text-left pre-scrollable">/*Strong signal*/
+.iconic-signal.iconic-signal-strong .iconic-signal-base {
+    fill:#569e26;
+}
+.iconic-signal.iconic-signal-strong .iconic-signal-wave * {
+    stroke:#569e26;
+}
+
+/*Medium signal*/
+.iconic-signal.iconic-signal-medium .iconic-signal-base {
+    fill:#efc411;
+}
+.iconic-signal.iconic-signal-medium .iconic-signal-wave * {
+    stroke:#efc411;
+}
+.iconic-signal.iconic-signal-medium .iconic-signal-wave-outer {
+    opacity:.3;
+    stroke-width:.5;
+}
+
+/*Weak signal*/
+.iconic-signal.iconic-signal-weak .iconic-signal-base {
+    fill:#b52808;
+}
+.iconic-signal.iconic-signal-weak .iconic-signal-wave * {
+    stroke:#b52808;
+}
+.iconic-signal.iconic-signal-weak .iconic-signal-wave-outer ,
+.iconic-signal.iconic-signal-weak .iconic-signal-wave-middle {
+    opacity:.3;
+    stroke-width:.5;
+}
+
+/*No signal*/
+.iconic-signal.iconic-signal-none .iconic-signal-base {
+    fill:#848484;
+}
+.iconic-signal.iconic-signal-none .iconic-signal-wave * {
+    stroke:#848484;
+    opacity:.3;
+    stroke-width:.5;
+}</pre>
+              <h5>SVG (from signal.svg)</h5>
+              <pre class="prettyprint text-left pre-scrollable">&lt;svg version="1.1" class="iconic iconic-signal" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="11.26px" height="8px" viewBox="0 0 11.26 8" enable-background="new 0 0 11.26 8" xml:space="preserve"&gt;
+  &lt;path class="iconic-signal-base" d="M6.337,7.247c-0.391-0.391-1.023-0.391-1.414,0l0.708,0.708L6.337,7.247z"/&gt;
+  &lt;g class="iconic-signal-wave"&gt;
+    &lt;path class="iconic-signal-wave-inner" fill="none" stroke="#000000" stroke-miterlimit="10" d="M7.62,5.966c-1.098-1.098-2.88-1.098-3.977,0"/&gt;
+    &lt;path class="iconic-signal-wave-middle" fill="none" stroke="#000000" stroke-miterlimit="10" d="M9.31,4.275C7.278,2.244,3.984,2.245,1.952,4.276"/&gt;
+    &lt;path class="iconic-signal-wave-outer" fill="none" stroke="#000000" stroke-miterlimit="10" d="M10.9,2.684c-2.911-2.911-7.629-2.911-10.54,0"/&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;</pre>
+          </div>
+        </div>
+      </article>
+    </section>
+    <div class="menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <ul class="pager">
+              <li class="text-center"><a data-toggle="modal" href="#modal-kickstarter" class="btn btn-default btn-kick btn-round">Get Iconic</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p><a href="https://twitter.com/share" class="twitter-share-button" data-via="useiconic">Tweet</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <p class="text-muted"><small>Laboriously loved by&nbsp;<a href="http://waybury.com" class="waybury-link">Waybury</a></small></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="modal-kickstarter" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6">
+                  <h2>Make it happen</h2>
+                  <p>We want you to have Iconic and we <em>definitely</em> want you to use it. There's just one thing you need to do to make this a reality. <a href="http://www.kickstarter.com/projects/207474036/iconic-advanced-icons-for-the-modern-web" class="kick">Back Iconic on Kickstarter</a> and <a href="https://twitter.com/useiconic" class="tweet">spread the word</a>. OK, that's two things, but you get the point.</p>
+                  <p>In all seriousness, please help us get Iconic in your hands (figuratively). We know you'll love it.</p>
+                  <p>&nbsp;</p>
+                  <p><a href="http://www.kickstarter.com/projects/207474036/iconic-advanced-icons-for-the-modern-web" class="btn btn-kick btn-round">Back us on Kickstarter</a></p>
+                </div>
+                <div class="col-sm-6 embed-kickstarter">
+                  <iframe frameborder="0" height="380" width="220" src="http://www.kickstarter.com/projects/207474036/iconic-advanced-icons-for-the-modern-web/widget/card.html"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/vendor/jquery.svginject.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/prettify.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/site.js"></script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </body>
+</html>

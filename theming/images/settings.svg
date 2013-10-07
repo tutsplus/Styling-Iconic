@@ -1,0 +1,18 @@
+<svg version="1.1" class="iconic iconic-settings" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="9px" height="9px" viewBox="0 0 9 9" enable-background="new 0 0 9 9" xml:space="preserve">
+<g class="iconic-elem-secondary">
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="4.5" y1="1" x2="4.5" y2="4.5"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="4.5" y1="6.5" x2="4.5" y2="8"/>
+</g>
+<g class="iconic-elem-secondary">
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="7.5" y1="1" x2="7.5" y2="2.5"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="7.5" y1="4.5" x2="7.5" y2="8"/>
+</g>
+<g class="iconic-elem-secondary">
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="1.5" y1="1" x2="1.5" y2="2.5"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="1.5" y1="4.5" x2="1.5" y2="8"/>
+</g>
+<circle class="iconic-elem-primary" fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" cx="1.5" cy="3.5" r="1"/>
+<circle class="iconic-elem-primary" fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" cx="7.5" cy="3.5" r="1"/>
+<circle class="iconic-elem-primary" fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" cx="4.5" cy="5.5" r="1"/>
+</svg>

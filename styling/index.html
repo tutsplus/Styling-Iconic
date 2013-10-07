@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta-->
+    <title>Icon themes | Iconic</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.png">
+    <!-- css-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/prettify.css">
+    <link rel="stylesheet" href="css/iconic-themes.css"><!--[if IE 9]>
+    <link id="css-ie9" href="css/ie9.css" rel="stylesheet" type="text/css">
+    <![endif]-->
+    <script src="/js/vendor/modernizr.custom.js"></script>
+    <!-- Fonts-->
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic" rel="stylesheet" type="text/css">
+    <!-- meta-->
+    <meta content="">
+    <style>
+
+      .iconic-lightbulb {
+        cursor: pointer;
+      }
+
+      .iconic-lightbulb * {
+        -webkit-transition: .4s;
+        -moz-transition: .4s;
+        transition: .4s;
+      }
+
+      .iconic-lightbulb .icon-container {
+        fill: #fff;
+        stroke-width: 6;
+        stroke: #fff;
+
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        transition: .3s;
+      }
+
+      .iconic-lightbulb:hover .icon-container {
+        fill: #fff8db;
+
+        -webkit-transition: 2s;
+        transition: 2s;
+        -webkit-transition: 2s;
+      }
+
+      .iconic-lightbulb .iconic-lightbulb-light * {
+        stroke-width: 16;
+        stroke: #ddd;
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .iconic-lightbulb:hover .iconic-lightbulb-light * {
+        stroke: #fc0;
+        stroke-width: 32;
+      }
+
+      .iconic-lightbulb .iconic-lightbulb-base {
+        fill: #666;
+      }
+
+      .iconic-lightbulb .iconic-lightbulb-screws * {
+        fill: none;
+        stroke-width: 16;
+        stroke: #333;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      body.subpage.demo article pre.prettyprint {
+        margin: 0;
+      }
+      body.subpage.demo .code-samples h5 {
+        margin: 20px 0 10px 0;
+      }
+    </style>
+  </head>
+  <body class="subpage smart-icons demo">
+    <section>
+      <article class="head">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 text-center text-muted">
+              <h6>Proof of Concept</h6>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+              <h4>Light up your icons</h4>
+              <p>You love CSS. So does Iconic. Each icon is designed with stying in mind. Individual elements of each and every icon can be given a completely custom look. So, by all means, go crazy.</p>
+              <p class="text-center">
+                <img src="images/lightbulb.svg" width="300" class="svg-inject" />
+              </p>
+              <p class="text-center text-muted">
+                <em>Hover to show alternate styling</em>
+              </p>
+            </div>
+          </div>
+          <div class="row code-samples">
+            <div class="col-md-6 col-md-offset-3">
+              <h5>HTML</h5>
+              <pre class="prettyprint text-left">&lt;img src=&quot;lightbulb.svg&quot; class=&quot;svg-inject&quot; /&gt;</pre>
+              <h5>JS</h5>
+              <pre class="prettyprint text-left">$('.svg-inject').svgInject();</pre>
+              <h5>CSS</h5>
+              <pre class="prettyprint text-left pre-scrollable">.iconic-lightbulb {
+  cursor: pointer;
+}
+
+.iconic-lightbulb * {
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  transition: .4s;
+}
+
+.iconic-lightbulb .icon-container {
+  fill: #fff;
+  stroke-width: 6;
+  stroke: #fff;
+
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  transition: .3s;
+}
+
+.iconic-lightbulb:hover .icon-container {
+  fill: #fff8db;
+
+  -webkit-transition: 2s;
+  transition: 2s;
+  -webkit-transition: 2s;
+}
+
+.iconic-lightbulb .iconic-lightbulb-light * {
+  stroke-width: 16;
+  stroke: #ddd;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.iconic-lightbulb:hover .iconic-lightbulb-light * {
+  stroke: #fc0;
+  stroke-width: 32;
+}
+
+.iconic-lightbulb .iconic-lightbulb-base {
+  fill: #666;
+}
+
+.iconic-lightbulb .iconic-lightbulb-screws * {
+  fill: none;
+  stroke-width: 16;
+  stroke: #333;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}</pre>
+              <h5>SVG (from lightbulb.svg)</h5>
+              <pre class="prettyprint text-left pre-scrollable">&lt;svg version="1.1" class="iconic iconic-lightbulb" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="714px" height="714px" viewBox="0 0 714 714" style="enable-background:new 0 0 714 714;" xml:space="preserve"&gt;
+  &lt;circle class="icon-container" cx="357" cy="357" r="330" stroke-width="16" stroke="#000" fill="none" /&gt;
+  &lt;g class="iconic-lightbulb-screws"&gt;
+      &lt;defs&gt;
+          &lt;clipPath id="iconic-lightbulb-screws-clip"&gt;
+              &lt;polygon points="304.333,511 433.667,511 430,521.5 281.667,547.167 280.333,521.5"/&gt;
+          &lt;/clipPath&gt;
+      &lt;/defs&gt;
+      &lt;line clip-path="url(#iconic-lightbulb-screws-clip)" x1="430" y1="505" x2="302" y2="529"/&gt;
+      &lt;line class="st4" x1="430" y1="537" x2="302" y2="561"/&gt;
+      &lt;line class="st4" x1="430" y1="569" x2="302" y2="593"/&gt;
+      &lt;line class="st4" x1="410" y1="605" x2="322" y2="621"/&gt;
+  &lt;/g&gt;
+
+  &lt;g class="iconic-lightbulb-light"&gt;
+      &lt;defs&gt;
+          &lt;clipPath id="iconic-lightbulb-light-clip"&gt;
+              &lt;polygon points="514,329 436,369 436,436 299,436 293,360 489,280"/&gt;
+          &lt;/clipPath&gt;
+      &lt;/defs&gt;
+      &lt;g clip-path="url(#iconic-lightbulb-light-clip)"&gt;
+          &lt;line x1="330" y1="369" x2="330" y2="435"/&gt;
+          &lt;polyline points="478,313 402,349 402,435"/&gt;
+      &lt;/g&gt;
+      &lt;line x1="478" y1="129" x2="254" y2="233"/&gt;
+      &lt;line x1="354" y1="125" x2="254" y2="173"/&gt;
+      &lt;line x1="478" y1="189" x2="254" y2="293"/&gt;
+      &lt;line x1="478" y1="249" x2="254" y2="353"/&gt;
+  &lt;/g&gt;
+
+  &lt;path class="iconic-lightbulb-base" d="M292.431,505c0.863,4.314,5.169,7.845,9.569,7.845h128c4.4,0,8.706-3.53,9.569-7.845l12.861-64.311c0.863-4.314-2.03-7.845-6.431-7.845H286c-4.4,0-7.294,3.53-6.431,7.845L292.431,505z"/&gt;
+&lt;/svg&gt;</pre>
+          </div>
+        </div>
+      </article>
+    </section>
+    <div class="menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <ul class="pager">
+              <li class="text-center"><a data-toggle="modal" href="#modal-kickstarter" class="btn btn-default btn-kick btn-round">Get Iconic</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p><a href="https://twitter.com/share" class="twitter-share-button" data-via="useiconic">Tweet</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <p class="text-muted"><small>Laboriously loved by&nbsp;<a href="http://waybury.com" class="waybury-link">Waybury</a></small></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="modal-kickstarter" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6">
+                  <h2>Make it happen</h2>
+                  <p>We want you to have Iconic and we <em>definitely</em> want you to use it. There's just one thing you need to do to make this a reality. <a href="http://www.kickstarter.com/projects/207474036/iconic-advanced-icons-for-the-modern-web" class="kick">Back Iconic on Kickstarter</a> and <a href="https://twitter.com/useiconic" class="tweet">spread the word</a>. OK, that's two things, but you get the point.</p>
+                  <p>In all seriousness, please help us get Iconic in your hands (figuratively). We know you'll love it.</p>
+                  <p>&nbsp;</p>
+                  <p><a href="http://www.kickstarter.com/projects/207474036/iconic-advanced-icons-for-the-modern-web" class="btn btn-kick btn-round">Back us on Kickstarter</a></p>
+                </div>
+                <div class="col-sm-6 embed-kickstarter">
+                  <iframe frameborder="0" height="380" width="220" src="http://www.kickstarter.com/projects/207474036/iconic-advanced-icons-for-the-modern-web/widget/card.html"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/vendor/jquery.svginject.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/prettify.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/site.js"></script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </body>
+</html>
